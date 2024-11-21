@@ -1,0 +1,57 @@
+body{
+    color:burlywood;
+    background: brown;
+    margin: 0px;
+    font-family: "Jersey 10", sans-serif;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px black;
+    padding: 20px;
+    font-size: 32px;
+    color:black
+}
+
+.cham{
+background: rgb(8, 9, 57);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+.texto-cham {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+.cat-anime{
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.anime{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 50px;
+}
+
+.cat-anime img {
+    opacity: 0.5;
+    height: 300px;
+}
+
+.cat-anime img:hover {
+opacity: 1.0;
+border: 1px solid blue;
+}
+
+.anime h2{
+    color: black;
+}
